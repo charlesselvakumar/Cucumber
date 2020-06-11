@@ -3,78 +3,6 @@
     "line": 1,
     "elements": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 6367428700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksClass.beforeExecution()"
-            }
-          }
-        ],
-        "line": 13,
-        "name": "Opening the mentioned website",
-        "description": "",
-        "id": "launching-4-websites;opening-the-mentioned-website",
-        "after": [
-          {
-            "result": {
-              "duration": 691532800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksClass.afterExecution()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 6379011400,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user should give username and password",
-            "match": {
-              "location": "Facebook.user_should_give_username_and_password()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 180967700,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user should click login button",
-            "match": {
-              "location": "Facebook.user_should_click_login_button()"
-            },
-            "keyword": "When "
-          }
-        ],
-        "tags": [
-          {
-            "line": 12,
-            "name": "@Smoke"
-          }
-        ]
-      }
-    ],
-    "name": "Launching 4 websites",
-    "description": "",
-    "id": "launching-4-websites",
-    "keyword": "Feature",
-    "uri": "Cucumber.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
         "line": 3,
         "name": "Given user is on facebook login or signup page",
         "description": "",
@@ -85,7 +13,7 @@
         "before": [
           {
             "result": {
-              "duration": 5377943400,
+              "duration": 6457797500,
               "status": "passed"
             },
             "match": {
@@ -100,7 +28,7 @@
         "after": [
           {
             "result": {
-              "duration": 721827600,
+              "duration": 732745000,
               "status": "passed"
             },
             "match": {
@@ -113,7 +41,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4761752200,
+              "duration": 2122496000,
               "status": "passed"
             },
             "line": 7,
@@ -139,9 +67,8 @@
           },
           {
             "result": {
-              "duration": 4832270200,
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id\u003d\u0027u_0_b\u0027]\"}\n  (Session info: chrome\u003d83.0.4103.97)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-NQT1QSKC\u0027, ip: \u0027192.168.0.107\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\Charles\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: e7e23c7552f83071fb39bded14bcb3a2\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\u0027u_0_b\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.step.Facebook.user_click_login_button(Facebook.java:52)\r\n\tat ✽.And User click login button(Facebook.feature:8)\r\n",
-              "status": "failed"
+              "duration": 264958300,
+              "status": "passed"
             },
             "line": 8,
             "name": "User click login button",
@@ -152,7 +79,103 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 158900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User must navigate to invalid credentials page",
+            "match": {
+              "location": "Facebook.user_must_navigate_to_invalid_credentials_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given user is on facebook login or signup page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5251001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To verify login with invalid credentials",
+        "description": "",
+        "id": "to-validate-facebook-login-page;to-verify-login-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 998056300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3005028000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter invalid \"charles\" and \"testdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "charles",
+                  "offset": 20
+                },
+                {
+                  "val": "testdata",
+                  "offset": 34
+                }
+              ],
+              "location": "Facebook.user_enter_invalid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83740400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click login button",
+            "match": {
+              "location": "Facebook.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84600,
+              "status": "passed"
             },
             "line": 9,
             "name": "User must navigate to invalid credentials page",

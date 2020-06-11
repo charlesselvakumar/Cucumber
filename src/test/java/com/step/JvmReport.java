@@ -22,7 +22,7 @@ public class JvmReport {
 	
 	Configuration con=new Configuration(f, "Facebook Application");
 
-	con.add
+	
 	
 	
 	
